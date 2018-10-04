@@ -1,0 +1,71 @@
+{{ define "builder" }}<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                           x="0px" y="0px" viewBox="0 0 2500 2500">
+    <g>
+
+    {{ CallTemplate "general>background" . "back" }}
+
+    {{ CallTemplate "general>background" . "front" }}
+
+    {{ CallTemplate .Head.Hair.HairType . "back" }}
+
+    {{ CallTemplate .Body.Shirt.ShirtType . "back" }}
+
+    {{ CallTemplate .Body.Neck . "back" }}
+
+    {{ CallTemplate "general>head" . "back" }}
+
+    {{ CallTemplate .Head.Eyes.EyeType . "back" }}
+
+    {{ CallTemplate .Head.Mouth . "back" }}
+
+    {{ CallTemplate .Extra.Glasses.GlassesType . "back" }}
+
+
+    {{ CallTemplate "general>head" . "front" }}
+
+    {{ CallTemplate .Head.Eyes.EyeType . "front" }}
+
+    {{ CallTemplate .Head.Mouth . "front" }}
+
+    {{ CallTemplate .Head.Hair.HairType . "front" }}
+
+    {{ CallTemplate .Body.Shirt.ShirtType . "front" }}
+
+    {{ CallTemplate .Body.Neck . "front" }}
+
+    {{ CallTemplate .Extra.Glasses.GlassesType . "front" }}
+
+    </g>
+</svg>
+{{ end }}
+
+{{ define "none>back" }}
+    <!-- Explicitly None -->
+{{ end }}
+
+{{ define "none>front" }}
+<!-- Explicitly None -->
+{{ end }}
+
+{{ define ">front" }}
+<!-- Implicitly None, for testing -->
+{{ end }}
+
+{{ define ">back" }}
+<!-- Implicitly None, for testing -->
+{{ end }}
+
+
+{{ define "" }}
+    <!-- Fallback -->
+{{ end }}
+
+{{ define "error>fallback" }}
+    <!-- Missing/Error -->
+{{ end }}
+{{ define "error>fallback>back" }}
+<!-- Missing/Error -->
+{{ end }}
+{{ define "error>fallback>front" }}
+<!-- Missing/Error -->
+{{ end }}

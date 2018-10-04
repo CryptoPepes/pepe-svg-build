@@ -1,0 +1,60 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [{
+			"checksumSHA1": "OeS7cUI7tvEFhl9MgGbIYYjdjAw=",
+			"path": "github.com/tdewolff/minify",
+			"revision": "d6de391f07a0949b814837a0979d39d4b5384912",
+			"revisionTime": "2018-01-17T19:16:41Z"
+		},
+		{
+			"checksumSHA1": "n2y1GbJeYUnC9ILcgMBYhgymxho=",
+			"path": "github.com/tdewolff/minify/css",
+			"revision": "d6de391f07a0949b814837a0979d39d4b5384912",
+			"revisionTime": "2018-01-17T19:16:41Z"
+		},
+		{
+			"checksumSHA1": "mjqh5Zfz+qaM5G3gdxDUodW3oEw=",
+			"path": "github.com/tdewolff/minify/svg",
+			"revision": "d6de391f07a0949b814837a0979d39d4b5384912",
+			"revisionTime": "2018-01-17T19:16:41Z"
+		},
+		{
+			"checksumSHA1": "ytbPF6rJvRmYqFuiU5bWxMjnxJ0=",
+			"path": "github.com/tdewolff/parse",
+			"revision": "b36661e4ba0edec88fcea8f3c22f8506f45e3f70",
+			"revisionTime": "2017-12-09T15:04:58Z"
+		},
+		{
+			"checksumSHA1": "bFczQeEt4V5STOU9jd9rHxnyAD0=",
+			"path": "github.com/tdewolff/parse/buffer",
+			"revision": "b36661e4ba0edec88fcea8f3c22f8506f45e3f70",
+			"revisionTime": "2017-12-09T15:04:58Z"
+		},
+		{
+			"checksumSHA1": "Uh+YXWjy9UiFwu6QqOlbSMHbgXg=",
+			"path": "github.com/tdewolff/parse/css",
+			"revision": "b36661e4ba0edec88fcea8f3c22f8506f45e3f70",
+			"revisionTime": "2017-12-09T15:04:58Z"
+		},
+		{
+			"checksumSHA1": "IrorTJ5lfYWU5QdWqMuLexxzoYA=",
+			"path": "github.com/tdewolff/parse/strconv",
+			"revision": "b36661e4ba0edec88fcea8f3c22f8506f45e3f70",
+			"revisionTime": "2017-12-09T15:04:58Z"
+		},
+		{
+			"checksumSHA1": "FetcW0ezJKXbXcsYISUTpt3CNPU=",
+			"path": "github.com/tdewolff/parse/svg",
+			"revision": "b36661e4ba0edec88fcea8f3c22f8506f45e3f70",
+			"revisionTime": "2017-12-09T15:04:58Z"
+		},
+		{
+			"checksumSHA1": "DYTiA9sTLaNHTecu+WyO6YOkN4I=",
+			"path": "github.com/tdewolff/parse/xml",
+			"revision": "b36661e4ba0edec88fcea8f3c22f8506f45e3f70",
+			"revisionTime": "2017-12-09T15:04:58Z"
+		}
+	],
+	"rootPath": "cryptopepe.io/cryptopepe-svg/builder"
+}

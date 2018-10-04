@@ -1,0 +1,3 @@
+[submodule "pepe-svg-art"]
+	path = pepe-svg-art
+	url = https://github.com/CryptoPepes/pepe-svg-art.git
