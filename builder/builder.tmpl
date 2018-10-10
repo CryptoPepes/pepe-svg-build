@@ -8,11 +8,12 @@
 
     {{ CallTemplate .Head.Hair.HairType . "back" }}
 
-    {{ CallTemplate "general>head" . "back" }}
-
     {{ CallTemplate .Body.Shirt.ShirtType . "back" }}
 
     {{ CallTemplate .Body.Neck . "back" }}
+
+    {{ CallTemplate "general>head" . "back" }}
+    {{ CallTemplate "general>head" . "front" }}
 
     {{ CallTemplate .Head.Eyes.EyeType . "back" }}
 
@@ -21,13 +22,12 @@
     {{ CallTemplate .Extra.Glasses.GlassesType . "back" }}
 
 
-    {{ CallTemplate "general>head" . "front" }}
-
-    {{ CallTemplate .Head.Hair.HairType . "front" }}
 
     {{ CallTemplate .Head.Eyes.EyeType . "front" }}
 
     {{ CallTemplate .Head.Mouth . "front" }}
+
+    {{ CallTemplate .Head.Hair.HairType . "front" }}
 
     {{ CallTemplate .Body.Shirt.ShirtType . "front" }}
 
