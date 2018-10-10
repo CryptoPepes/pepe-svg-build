@@ -6,13 +6,13 @@
 
     {{ CallTemplate "general>background" . "front" }}
 
+    {{ CallTemplate "general>head" . "back" }}
+
     {{ CallTemplate .Head.Hair.HairType . "back" }}
 
     {{ CallTemplate .Body.Shirt.ShirtType . "back" }}
 
     {{ CallTemplate .Body.Neck . "back" }}
-
-    {{ CallTemplate "general>head" . "back" }}
 
     {{ CallTemplate .Head.Eyes.EyeType . "back" }}
 
