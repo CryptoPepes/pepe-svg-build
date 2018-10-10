@@ -6,9 +6,9 @@
 
     {{ CallTemplate "general>background" . "front" }}
 
-    {{ CallTemplate "general>head" . "back" }}
-
     {{ CallTemplate .Head.Hair.HairType . "back" }}
+
+    {{ CallTemplate "general>head" . "back" }}
 
     {{ CallTemplate .Body.Shirt.ShirtType . "back" }}
 
@@ -23,11 +23,11 @@
 
     {{ CallTemplate "general>head" . "front" }}
 
+    {{ CallTemplate .Head.Hair.HairType . "front" }}
+
     {{ CallTemplate .Head.Eyes.EyeType . "front" }}
 
     {{ CallTemplate .Head.Mouth . "front" }}
-
-    {{ CallTemplate .Head.Hair.HairType . "front" }}
 
     {{ CallTemplate .Body.Shirt.ShirtType . "front" }}
 
