@@ -192,6 +192,7 @@ func createTemplate(fullId string, part Part, frontSvg *SvgGroup, backSvg *SvgGr
 	if part.Colors != nil {
 		for k, v := range part.Colors {
 			out = strings.Replace(out, "fill:" + v, "fill:{{- ."+k+" -}}", -1)
+			out = strings.Replace(out, "fill: " + v, "fill:{{- ."+k+" -}}", -1)
 		}
 	}
 	return out
